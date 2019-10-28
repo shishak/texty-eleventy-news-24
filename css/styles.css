@@ -239,6 +239,7 @@ ul {
 article h3 {
      color: #BDBDBD;
     font-weight: 400;
+    margin-left: 40px;
 }
 
 article ul {
@@ -249,7 +250,7 @@ article ul {
 }
 
 article ul li {
-  margin: 1em 0;
+  margin: .5em 0;
 }
 
 article a {
