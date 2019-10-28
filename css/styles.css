@@ -64,16 +64,16 @@ header {
 	z-index: 2;
 }
 .date-title-home {
-  font-size: 12px;
+  font-size: 14px;
   font-family: "Roboto", Helvetica, Arial, sans-serif;
-  color: gray;
+  color: #9E9EA2;
 }
 .date-title {
-  font-size: 12px;
+  font-size: 14px;
   margin-bottom: 50px;
   margin-top: 10px;
   font-family: "Roboto", Helvetica, Arial, sans-serif;
-  color: gray;
+  color: #9E9EA2;
 }
 .content {
   max-width: 850px;
