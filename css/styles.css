@@ -100,7 +100,9 @@ header {
   float: right;
 }
 	
-
+p img {
+   margin-bottom: 30px;
+}
 
 h2 {
   margin-left: 0;
