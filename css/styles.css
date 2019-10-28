@@ -19,7 +19,7 @@ a {
   transition: opacity 0.3s;	
 }
 a:hover {
-  opacity: .7;
+  opacity: .8;
   transition: opacity 0.3s;	
 }
 header {
