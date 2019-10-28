@@ -17,15 +17,10 @@ a {
   text-decoration: none;
   color: #303030;
 }
-strong {
-  font-weight: 200;
-}
 header {
    text-align: center;
-   height: 30px;
-	
+   height: 60px;
 }
-
 .container {
   max-width: 1200px;
  padding: 10px;
@@ -34,7 +29,7 @@ header {
 .grid {
   display: flex;
   flex-wrap: wrap;
-  margin: 0 -15px;
+  width: 100%;
 }
 .box {
   width: 33.33%;
@@ -58,7 +53,7 @@ header {
 }
 .grid-item img {
   width: 100%;
-  max-height: 220px;
+  max-height: 200px;
   object-fit: cover;
 }
 .grid-item-content {
@@ -75,45 +70,38 @@ header {
 }
 .date-title {
   font-size: 12px;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
   margin-top: 10px;
   font-family: "Roboto", Helvetica, Arial, sans-serif;
   color: gray;
 }
-
 .content {
-  max-width: 700px;
+  max-width: 850px;
   margin: 0 auto;
   padding-bottom: 50px;
   float: left;
 }
 .content p {
   font-family: Georgia,Cambria,"Times New Roman",Times,serif;
-  margin: 0 0 20px;
+  margin: 30px;
   font-size: 20px;
   line-height: 28px;
   color: #424243;
 }
 
-.content img {
-    margin-bottom: 50px;
-    margin-left: -40px;
-    max-height: 450px;
+.content img {   
     object-fit: cover;
-    width: 115%;
+	width: 100%;
     box-shadow: 0 3px 1px -2px rgba(0,0,0,.2), 0 2px 2px 0 rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12);
 }
 
 .sidebar {
-   width: 300px;
-   height: 800px;
   float: right;
-   margin: 50px;
 }
 	
 
 
-h1, h2 {
+h2 {
   margin-left: 0;
   margin-bottom: 0;
   margin-right: 0;
@@ -125,7 +113,14 @@ h1 {
   font-size: 48px;
     font-weight: 500;
     line-height: 48px;
-    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.date-title {
+   margin-left: 20px;
 }
 
 h2 {
@@ -133,36 +128,35 @@ h2 {
   font-weight: 400;
 }
 
+
+
 .box:nth-of-type(4), .box:nth-of-type(5), .box:nth-of-type(9), .box:nth-of-type(10), .box:nth-of-type(14), .box:nth-of-type(15), .box:nth-of-type(19), .box:nth-of-type(20), .box:nth-of-type(24), .box:nth-of-type(25), .box:nth-of-type(29), .box:nth-of-type(30), .box:nth-of-type(34), .box:nth-of-type(35), .box:nth-of-type(39), .box:nth-of-type(40), .box:nth-of-type(44), .box:nth-of-type(45), .box:nth-of-type(49), .box:nth-of-type(50), .box:nth-of-type(54), .box:nth-of-type(55), .box:nth-of-type(59), .box:nth-of-type(60), .box:nth-of-type(64), .box:nth-of-type(65), .box:nth-of-type(69), .box:nth-of-type(70), .box:nth-of-type(74), .box:nth-of-type(75), .box:nth-of-type(79), .box:nth-of-type(80), .box:nth-of-type(84), .box:nth-of-type(85), .box:nth-of-type(89), .box:nth-of-type(90), .box:nth-of-type(94), .box:nth-of-type(95), .box:nth-of-type(99), .box:nth-of-type(100) {
    width: 50%; 
 }
 
 @media all and (max-width: 800px) {
-.box {
+.box:nth-last-child(1n+0) {
    width: 100%;
 }
-.box:nth-of-type(4), .box:nth-of-type(5), .box:nth-of-type(9), .box:nth-of-type(10), .box:nth-of-type(14), .box:nth-of-type(15), .box:nth-of-type(19), .box:nth-of-type(20), .box:nth-of-type(24), .box:nth-of-type(25), .box:nth-of-type(29), .box:nth-of-type(30), .box:nth-of-type(34), .box:nth-of-type(35), .box:nth-of-type(39), .box:nth-of-type(40), .box:nth-of-type(44), .box:nth-of-type(45), .box:nth-of-type(49), .box:nth-of-type(50), .box:nth-of-type(54), .box:nth-of-type(55), .box:nth-of-type(59), .box:nth-of-type(60), .box:nth-of-type(64), .box:nth-of-type(65), .box:nth-of-type(69), .box:nth-of-type(70), .box:nth-of-type(74), .box:nth-of-type(75), .box:nth-of-type(79), .box:nth-of-type(80), .box:nth-of-type(84), .box:nth-of-type(85), .box:nth-of-type(89), .box:nth-of-type(90), .box:nth-of-type(94), .box:nth-of-type(95), .box:nth-of-type(99), .box:nth-of-type(100) {
+.box {
    width: 100%;
 }
 .grid-item {
     margin-bottom: 0.5rem;
 }
+.footer-container {
+  margin-top: 0;
 }
+}
+	
 .grid p, .grid table{display:none}
 .grid p:nth-child(1) {
 	display:block;
 	margin:0;
 }
 
-
-
-.logo {
-   position: absolute;
-   left: 0;
-   right: 0;
-   margin: 0 auto;
-  max-width: 80px;
-max-height: 20px;
+.logo svg {
+	margin: 20px;
 }
 
 
@@ -176,12 +170,8 @@ max-height: 20px;
 .box:nth-of-type(4) img, .box:nth-of-type(5) img {
     margin-bottom: -200px;
     max-height: 350px;
+    filter: brightness(0.60);
 	
-}
- .box:nth-of-type(4) .gradient, .box:nth-of-type(5) .gradient {
-    background-image: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.45702030812324934) 36%, rgba(0,0,0,0) 100%);
-    height: 280px;
-    margin-top: -250px;
 }
 	
  .box:nth-of-type(4) h2, .box:nth-of-type(5) h2 {
@@ -195,8 +185,6 @@ max-height: 20px;
 }
 }
 
-
-
 .box:nth-of-type(1) img, .box:nth-of-type(2) img, .box:nth-of-type(3) img {
    display: none;
 }
@@ -204,17 +192,9 @@ max-height: 20px;
 	font-size: 0;
 }
 
-
-
-
-
-
-
-
-
-hr {
-  margin: 0;
-  opacity: 0.25;
+.grid-item b {
+  font-size: 0;
+  height: 0;
 }
 
 small {
@@ -225,25 +205,27 @@ footer {
   width: 100%;
   background: #f1f1f1;
   float: left;
+   font-family: "Roboto", Helvetica, Arial, sans-serif;
 }
 
 .footer-main {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   grid-gap: 1rem;
-  margin-bottom: 5em;
+	margin-bottom: 80px;
 }
 
 .footer-container {
   max-width: 1140px;
   margin: 0 auto;
-  padding: 4em 0 2em 0;
+  padding: 0em 2em 0em;
+  margin-top: 50px;
 }
 
 .footer-bottom {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+   text-align: center;
+	margin-bottom: 40px;
+	margin-top: 20px;
 }
 
 section {
@@ -254,25 +236,9 @@ ul {
   list-style-type: none;
 }
 
-.footer-bottom ul {
-  display: flex;
-  align-items: center;
-  flex-direction: row;
-  font-size: 90%;
-}
-
-.footer-bottom ul li {
-  margin: 0 0.5em;
-  color: rgba(0, 0, 0, 0.7);
-}
-
-article {
-  font-size: 90%;
-}
-
 article h3 {
-  font-weight: normal;
-  color: rgba(0, 0, 0, 0.7);
+     color: #BDBDBD;
+    font-weight: 400;
 }
 
 article ul {
@@ -283,14 +249,34 @@ article ul {
 }
 
 article ul li {
-  margin: 0.4em 0;
+  margin: 1em 0;
+}
+
+article a {
+  font-size: 16px;
+  color: #757575;
 }
 
 article ul li a:hover {
   text-decoration: underline;
 }
 
+.item-page, .share-page {
+   margin-top: 10px;
+   transition: opacity 0.3s;
+}
+.item-page:hover, .share-page:hover {
+    opacity: .8;
+    transition: opacity 0.3s;
+}
 
+@media all and (max-width: 1119px) {
+.content {
+   float: none;
+}
+ .sidebar {
+   display: none;
+}
 
-
+}
 
