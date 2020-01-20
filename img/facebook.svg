@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="162px" height="61px" viewBox="0 0 162 61" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="facebook" transform="translate(1.000000, 1.000000)">
+            <rect id="Rectangle-path" stroke="#E2E6E9" fill="#FFFFFF" fill-rule="nonzero" x="0" y="0" width="160" height="59" rx="5"></rect>
+            <text id="FACEBOOK" fill="#4A4A4A" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal">
+                <tspan x="53" y="35">FACEBOOK</tspan>
+            </text>
+            <path d="M28.188,23.375 L31.001,23.375 L31.001,20 L28.188,20 C26.017,20 24.25,21.766 24.25,23.938 L24.25,25.626 L22,25.626 L22,29.001 L24.25,29.001 L24.25,38.001 L27.625,38.001 L27.625,29.001 L30.438,29.001 L31.001,25.626 L27.626,25.626 L27.626,23.938 C27.626,23.633 27.884,23.375 28.189,23.375 L28.188,23.375 Z" id="Shape" fill="#2967B0" fill-rule="nonzero"></path>
+        </g>
+    </g>
+</svg>
