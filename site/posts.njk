@@ -13,7 +13,7 @@ permalink: /{{ item.path }}/index.html
 
 <div class="share-page"><a href="https://twitter.com/intent/tweet?text=https://україна.live/{{ item.path }} {{ item.title }}" class="share-page" target="_blank" rel="noreferrer"><img src="https://xn--80aa2annq7l.live/img/twitter.svg"></a></div>
 
-<div class="item-page" style="margin-top: 50px;"><img src="/img/ads.svg"></div>
+<div class="item-page" style="margin-top: 100px;"><img src="/img/ads.svg"></div>
 </div>
 
 <div class="grid">{% for item in homepost.posts %}<div class="col box"><a class="grid-item" href="/{{ item.path }}">{{ item['content:encoded'] | safe }}<div class="grid-item-content"><div class="date-title-home"> {{ item.pubDate | date }}</div><h2>{{ item.title }}</h2></div></a></div>{% endfor %}</div>
