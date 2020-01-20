@@ -93,7 +93,6 @@ header {
   font-size: 22px;
   color: #272727;
   margin-right: 50px;
-  line-height: 26px;
 }
 
 .content img {   
@@ -101,7 +100,6 @@ header {
    width: 100%;
    max-height: 450px;
    margin-bottom: 30px;
-   opacity: .8;
 }
 
 .sidebar {
