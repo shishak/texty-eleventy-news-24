@@ -93,13 +93,15 @@ header {
   font-size: 22px;
   color: #272727;
   margin-bottom: 30px;
+  margin-right: 50px;
 }
 
 .content img {   
-    object-fit: cover;
-	width: 100%;
-	max-height: 450px;
-	margin-bottom: 30px;
+   object-fit: cover;
+   width: 100%;
+   max-height: 450px;
+   margin-bottom: 30px;
+   opacity: .8;
 }
 
 .sidebar {
