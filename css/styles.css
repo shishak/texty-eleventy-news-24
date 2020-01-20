@@ -89,11 +89,11 @@ header {
 }
 .content p {
   font-family: Georgia,Cambria,"Times New Roman",Times,serif;
-  margin-left: 40px;
+  margin-left: 50px;
   font-size: 18px;
   color: #444;
-  margin-right: 50px;
-  margin-bottom: 50px;
+  margin-right: 90px;
+  margin-bottom: 30px;
 }
 
 .content img {   
