@@ -1,11 +1,9 @@
 <!DOCTYPE html><html lang="uk"><head>
-<!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-156543792-2"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'UA-156543792-2');
 </script>
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><style>{% include "css/styles.css" %}</style><meta http-equiv="X-UA-Compatible" content="ie=edge"><title>{{ item.title }} Україна Live - останнi новини краiни</title><meta name="description" content="{{ item.title }} Україна Live - останнi новини краiни"><meta property="og:title" content="{{ item.title }} Україна Live - останнi новини краiни"><meta property="og:type" content="{{ item.description }}"><meta property="og:url" content="{{ item.path }}"><link rel="icon" href="/img/favicon.png"><link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png"><link rel="icon" type="image/png" href="/img/favicon-32x32.png" sizes="32x32"></head><body><div class="container"><header><a href="/" class="logo" alt="Україна Live"><svg width="119" height="23" viewBox="0 0 119 23" xmlns="http://www.w3.org/2000/svg"><g transform="translate(-860 -138) translate(860 128)" fill="none"><text font-family="Arial-Black, Arial Black" font-size="30" font-weight="700" letter-spacing="2.81" fill="#08f"><tspan x="35" y="33">LIV</tspan><tspan x="98.45" y="33">E</tspan></text><circle fill="#FFEB3B" cx="11.5" cy="21.5" r="11.5"/></g></svg></a></header></div><div class="container">{{ content | safe }}</div>
