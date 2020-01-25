@@ -5,9 +5,9 @@
     <desc>Created with Sketch.</desc>
     <defs></defs>
     <g id="Artboard-Copy" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <rect id="Rectangle-path" fill="#3768B0" fill-rule="nonzero" x="1" y="1" width="160" height="59" rx="5"></rect>
-        <path d="M32.188,24.375 L35.001,24.375 L35.001,21 L32.188,21 C30.017,21 28.25,22.766 28.25,24.938 L28.25,26.626 L26,26.626 L26,30.001 L28.25,30.001 L28.25,39.001 L31.625,39.001 L31.625,30.001 L34.438,30.001 L35.001,26.626 L31.626,26.626 L31.626,24.938 C31.626,24.633 31.884,24.375 32.189,24.375 L32.188,24.375 Z" id="Shape" fill="#FFFFFF" fill-rule="nonzero"></path>
-        <text id="Поширити" opacity="0.740513393" font-family="Roboto-Medium, Roboto" font-size="14" font-weight="400" fill="#FFFFFF">
+        <rect id="Rectangle-path" stroke="#F4F4F4" fill="#FFFFFF" fill-rule="nonzero" x="0.5" y="0.5" width="161" height="60" rx="5"></rect>
+        <path d="M32.188,24.375 L35.001,24.375 L35.001,21 L32.188,21 C30.017,21 28.25,22.766 28.25,24.938 L28.25,26.626 L26,26.626 L26,30.001 L28.25,30.001 L28.25,39.001 L31.625,39.001 L31.625,30.001 L34.438,30.001 L35.001,26.626 L31.626,26.626 L31.626,24.938 C31.626,24.633 31.884,24.375 32.189,24.375 L32.188,24.375 Z" id="Shape" fill="#3768B0" fill-rule="nonzero"></path>
+        <text id="Поширити" opacity="0.787276786" font-family="Roboto-Medium, Roboto" font-size="14" font-weight="400" fill="#4A4A4A">
             <tspan x="55" y="36">Поширити</tspan>
         </text>
     </g>
