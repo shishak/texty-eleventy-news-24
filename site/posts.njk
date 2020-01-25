@@ -4,7 +4,7 @@ pagination:
   data: post.posts
   size: 1
   alias: item
-permalink: /{{ item.path }}/index.html
+permalink: /{{ item.path }}
 ---
 <div class="content"><h1>{{ item.title }}</h1><div class="date-title">{{ item.pubDate | date }}</div>{{ item['content:encoded'] | safe }}</div>
 
