@@ -5,12 +5,10 @@
     <desc>Created with Sketch.</desc>
     <defs></defs>
     <g id="Artboard-Copy" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <rect id="Rectangle-path" stroke="#D0DEF3" fill="#3768B0" fill-rule="nonzero" x="1.5" y="1.5" width="159" height="58" rx="5"></rect>
-        <path d="M32.188,24.375 L35.001,24.375 L35.001,21 L32.188,21 C30.017,21 28.25,22.766 28.25,24.938 L28.25,26.626 L26,26.626 L26,30.001 L28.25,30.001 L28.25,39.001 L31.625,39.001 L31.625,30.001 L34.438,30.001 L35.001,26.626 L31.626,26.626 L31.626,24.938 C31.626,24.633 31.884,24.375 32.189,24.375 L32.188,24.375 Z" id="Shape" fill="#FFFFFF" fill-rule="nonzero"></path>
-        <path d="M57.5,1.5 L57.5,59.5000009 L156.000003,59.5000009 C158.485285,59.5000009 160.500003,57.4852823 160.500003,55.0000009 L160.500003,6 C160.500003,3.51471863 158.485285,1.5 156.000003,1.5 L57.5,1.5 Z" id="Rectangle-path" stroke="#CEE7FE" fill="#FFFFFF" fill-rule="nonzero"></path>
-        <text id="Поширити-у-Facebook" font-family="Roboto-Medium, Roboto" font-size="12" font-weight="400" fill="#4A4A4A">
-            <tspan x="69" y="28">Поширити у </tspan>
-            <tspan x="69" y="42">Facebook</tspan>
+        <rect id="Rectangle-path" stroke="#E2E6E9" fill="#FFFFFF" fill-rule="nonzero" x="0.5" y="0.5" width="161" height="60" rx="5"></rect>
+        <path d="M32.188,24.375 L35.001,24.375 L35.001,21 L32.188,21 C30.017,21 28.25,22.766 28.25,24.938 L28.25,26.626 L26,26.626 L26,30.001 L28.25,30.001 L28.25,39.001 L31.625,39.001 L31.625,30.001 L34.438,30.001 L35.001,26.626 L31.626,26.626 L31.626,24.938 C31.626,24.633 31.884,24.375 32.189,24.375 L32.188,24.375 Z" id="Shape" fill="#3768B0" fill-rule="nonzero"></path>
+        <text id="Facebook" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" fill="#4A4A4A">
+            <tspan x="60" y="36">Facebook</tspan>
         </text>
     </g>
 </svg>
