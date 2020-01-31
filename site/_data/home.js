@@ -1,7 +1,7 @@
 var axios  = require('axios');
 var toJSON = require('xml2js').parseString;
 
-var url = process.env.MEDIUM_FEED ||'https://24tv.ua/rss/tag/1792.xml';
+var url = process.env.MEDIUM_FEED ||'https://beautifuleuropeangirls.tumblr.com/rss';
 
 module.exports = () => {
   return new Promise((resolve, reject) => {
